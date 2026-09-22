@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+<!<!DOCTYPE html>
 <html>
+
 <head>
     <title>My First Website</title>
     <link rel="stylesheet" href="style.css">
@@ -7,10 +8,19 @@
 
 <body>
 
-    <h1>Hello, I am Fahd</h1>
+    <h1>مرحباً، أنا فهد</h1>
 
-    <p>Welcome to my first website.</p>
+    <p id="message">هذا أول موقع لي.</p>
+
+    <button onclick="changeMessage()">اضغط هنا</button>
+
+    <script>
+        function changeMessage() {
+            document.getElementById("message").innerHTML =
+                "ممتاز! لقد تعلمت JavaScript.";
+        }
+    </script>
 
 </body>
+
 </html>
-<button>تواصل معي</button>
