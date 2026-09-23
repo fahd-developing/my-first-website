@@ -1,19 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 100px;
+    background-color: #f2f2f2;
 }
 
-h1 {
-    font-size: 40px;
+.login-box {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
 }
 
-p {
-    font-size: 20px;
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
 }
+
 button {
-    padding: 12px 25px;
+    padding: 12px 30px;
     font-size: 18px;
-    border: none;
-    border-radius: 8px;
 }
