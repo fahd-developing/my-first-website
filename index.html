@@ -1,24 +1,51 @@
-<!<!DOCTYPE html><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Login Page</title>
+    <title>My Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="login-box">
+    <div class="dashboard">
 
-        <h1>تسجيل الدخول</h1>
+        <aside class="sidebar">
+            <h2>My App</h2>
 
-        <input type="text" id="username" placeholder="اسم المستخدم">
+            <a href="#">الرئيسية</a>
+            <a href="#">المستخدمون</a>
+            <a href="#">الإعدادات</a>
 
-        <input type="password" id="password" placeholder="كلمة المرور">
+            <button onclick="logout()">تسجيل الخروج</button>
+        </aside>
 
-        <button onclick="login()">دخول</button>
+        <main class="content">
 
-        <p id="message"></p>
+            <h1>لوحة التحكم</h1>
+
+            <p id="welcome">مرحباً بك في لوحة التحكم</p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>المستخدمون</h3>
+                    <p>120</p>
+                </div>
+
+                <div class="card">
+                    <h3>الطلبات</h3>
+                    <p>45</p>
+                </div>
+
+                <div class="card">
+                    <h3>المشاريع</h3>
+                    <p>8</p>
+                </div>
+
+            </div>
+
+        </main>
 
     </div>
 
@@ -26,4 +53,4 @@
 
 </body>
 
-</html>>
+</html>
